@@ -1,0 +1,78 @@
+@define-color accent rgb(121,204,243);
+
+* {
+    font-family: "Fira Code", "Font Awesome 5 Free";
+    font-size: 17px;
+}
+
+window#waybar {
+    background: rgba(0,0,0,0.5);   
+    border-radius: 25 25 0 0;
+    border-top: 0.5px solid rgb(150,150,150);
+}
+
+.modules-left, .modules-center, .modules-right {
+  background: rgba(25,28,33,1);
+  padding: 5 10 5 10;
+  border-radius: 50px;
+  border: 1.5px solid @accent;
+  margin: 10 10 10 10;
+}
+
+#workspaces button {
+  color: rgb(250, 249, 246);
+  padding: 0 5 0 5;
+  border: none;
+  border-radius: 50;
+}
+
+#workspaces button:hover {
+  background: none;
+  border: none;
+}
+
+#workspaces button.active {
+  background: @accent;
+  color: black;
+}
+
+#custom-files, #custom-terminal, #custom-firefox, #network, #window, #custom-launcher, #workspaces, #clock, #custom-media, #backlight, #pulseaudio, #battery, #tray, #custom-power {
+  color: rgb(250, 249, 246);
+  padding: 0 7 0 7;
+}
+
+#custom-files {
+  padding: 0 15 0 15;
+}
+
+#workspaces {
+  padding: 0 0 0 0;
+}
+
+#custom-media {
+  color: rgb(250, 249, 246);
+  border-radius: 10px;
+}
+
+tooltip {
+  background: rgba(0, 0, 0, 1);
+  border: 1px solid rgb(50,50,50);
+}
+
+tooltip label {
+  color: white;
+}
+
+#taskbar button{
+  padding: 0 5 0 5;
+  border: none;
+}
+
+#taskbar button:hover {
+  background: none;
+  border: none;
+}
+
+#taskbar.empty {
+  padding: 0 0 0 0;
+}
