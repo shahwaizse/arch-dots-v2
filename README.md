@@ -3,4 +3,13 @@
 mostly a waybar update, just install stuff from arch-dots repo to get this working. 
 also, lockscreen rofi widget needs inetutils package on arch to show the hostname. 
 font is Mono Nerd Font. 
-wallpapers are now controlled through [waypaper](https://github.com/anufrievroman/waypaper)
+wallpapers are now controlled through [waypaper](https://github.com/anufrievroman/waypaper) 
+ 
+future plans: making a tool which uses the waypaper [post command](https://anufrievroman.gitbook.io/waypaper/configuration) and this script to get the current wallpaper: 
+ps aux |grep swaybg |awk -F ' ' '{print $13;exit;}' 
+ 
+probably need to find a tool (maybe imagemagick?) which extracts color pallete from an image, so the flow would probably be something like this: 
+1. changing the wallpaper in waypaper triggers the post_command, in it we execute a script which: 
+2. pipes the current wallpaper to the color pallete extractor. 
+3. pipes the color pallete to a script which overwrites the color in the hyprland, waybar, and rofi config files. 
+4. profit.
