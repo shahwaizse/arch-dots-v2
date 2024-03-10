@@ -5,7 +5,7 @@ also, lockscreen rofi widget needs inetutils package on arch to show the hostnam
 font is Mono Nerd Font. 
 wallpapers are now controlled through [waypaper](https://github.com/anufrievroman/waypaper) 
  
-future plans: making a tool which uses the waypaper [post command](https://anufrievroman.gitbook.io/waypaper/configuration) and this script to get the current wallpaper: 
+future plans: making a tool which updates accent color system-wide using the waypaper [post command](https://anufrievroman.gitbook.io/waypaper/configuration) and this script to get the current wallpaper: 
 ps aux |grep swaybg |awk -F ' ' '{print $13;exit;}' 
  
 probably need to find a tool (maybe imagemagick?) which extracts color pallete from an image, so the flow would probably be something like this: 
