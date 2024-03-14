@@ -1,5 +1,7 @@
  ![screenshot](screenshot.png) 
  
+![screenshot2](screenshot2.png) 
+ 
 mostly a waybar update, just install stuff from arch-dots repo to get this working. 
 also, lockscreen rofi widget needs inetutils package on arch to show the hostname. 
 font is Mono Nerd Font. 
