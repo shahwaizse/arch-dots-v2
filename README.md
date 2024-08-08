@@ -13,10 +13,7 @@ Rofi modules: [adi1090x/rofi](https://github.com/adi1090x/rofi)
 Screenshots: [grim](https://sr.ht/~emersion/grim/)  
 Notifications: [dunst](https://github.com/dunst-project/dunst)  
 Wallpapers: [waypaper](https://github.com/anufrievroman/waypaper)  
-Font: Any Nerd font from [Nerd Fonts](https://www.nerdfonts.com/)  
-  
-## Custom script for setting wallpaper in Thunar  
-`echo %f > /home/shahwaiz/wallpaper && swaybg -i %f -m fill`  
+Font: Any Nerd font from [Nerd Fonts](https://www.nerdfonts.com/)   
   
 ## Installation notes  
 1- powermenu rofi widgets need [inetutils](https://archlinux.org/packages/core/x86_64/inetutils/) package on arch to show the hostname correctly.  
