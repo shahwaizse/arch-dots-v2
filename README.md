@@ -13,7 +13,7 @@ Rofi modules: [adi1090x/rofi](https://github.com/adi1090x/rofi)
 Screenshots: [grim](https://sr.ht/~emersion/grim/)  
 Notifications: [dunst](https://github.com/dunst-project/dunst)  
 Wallpapers: [waypaper](https://github.com/anufrievroman/waypaper)  
-Font: Any Nerd font from [Nerd Fonts](https://www.nerdfonts.com/)   
+Font: [Nerd Fonts](https://www.nerdfonts.com/) (any Mono font will do)   
   
 ## Installation notes  
 1- powermenu rofi widgets need [inetutils](https://archlinux.org/packages/core/x86_64/inetutils/) package on arch to show the hostname correctly.  
