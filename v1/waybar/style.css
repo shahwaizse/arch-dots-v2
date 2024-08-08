@@ -1,0 +1,98 @@
+* {
+    font-family: "Fira Code", "Font Awesome 5 Free";
+    font-size: 16px;
+}
+
+window#waybar {
+    background: rgba(0,0,0,0.6);
+    border-radius: 10;
+}
+
+tooltip {
+  background: rgba(30, 30, 46, 1);
+  border: 1px solid rgba(205, 214, 244, 0.5);
+}
+
+tooltip label {
+  color: white;
+}
+
+#workspaces button, #clock, #battery, #backlight, #pulseaudio, #network, #tray{
+  background: rgba(30,30,46,0);
+  border-radius: 20px;
+  padding: 0 5px;
+}
+
+#custom-launcher {
+  background: rgba(30,30,46,0);
+  border-radius: 20px;
+  min-width: 40px;
+  margin-left: 5px;
+}
+
+#custom-power {
+  background: rgba(30,30,46,0);
+  border-radius: 20px;
+  min-width: 40px;
+  margin-right: 5px;
+}
+
+#workspaces {
+  background: rgba(30,30,46,0);
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+#battery, #clock, #backlight, #pulseaudio, #network, #tray {
+  min-width: 10px;
+  margin-right: 5px;
+}
+
+#workspaces button {
+  background: rgba(0,0,0,0);
+  margin: 0 2px;
+  color: white;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+
+#workspaces button.active {
+}
+
+#clock {
+  color: rgb(205, 214, 244);
+}
+
+#network {
+  color: rgb(203,166,247);
+}
+
+#pulseaudio {
+  color: rgb(137,180,250);
+}
+
+#backlight {
+  color: rgb(250,179,135);
+}
+
+#battery {
+  color: rgb(166,227,161);
+  padding: 10px;
+}
+
+#battery.charging {
+}
+
+#battery.full {
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}
+
+#battery.warning {
+  color: rgb(243,139,168);
+}

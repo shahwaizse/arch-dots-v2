@@ -1,0 +1,78 @@
+{
+    "margin": "10 10 5 10",
+    "position": "top",
+    "layer": "top",
+    "modules-left": ["custom/launcher", "hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "backlight", "battery", "tray","custom/power"],
+    "hyprland/window": {
+        "max-length": 50
+    },
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "format-icons": {
+            "active": "󰊠",
+            "default": "󱙝"
+        },
+        "sort-by-number": true
+    },
+    "battery": {
+	"format": "{icon}",
+        "format-alt": "{icon}  {capacity}",
+        "format-icons": ["󰁺", "󰁼", "󰁾", "󰂀", "󰁹"],
+	"format-charging": "󰂄",
+	"tooltip-format": "{capacity}",
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    },
+    "backlight": {
+        "device": "intel_backlight",
+	"format": "{icon}",
+        "format-alt": "{icon}  {percent}",
+        "format-icons": ["󰃞", "󰃟", "󰃠"],
+	"tooltip-format": "{percent}",
+    },
+    "pulseaudio": {
+	"format": "{icon}",
+        "format-alt": "{icon}  {volume}",
+        "format-bluetooth": "{volume}  {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "󰋋",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "scroll-step": 1,
+        "on-click": "pavucontrol",
+        "ignored-sinks": ["Easy Effects Sink"]
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "󰖩  {essid}",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "format-linked": "{ifname} (No IP)",
+        "format-disconnected": "󰖪 Disconnected",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "on-click": "nm-applet",
+    },
+    "tray": {
+        "icon-size": 17,
+        "spacing": 10
+    },
+    "custom/launcher": {
+        "format": "󰣇",
+        "on-click": "/home/shahwaiz/.config/rofi/launchers/type-1/launcher.sh",
+    },
+    "custom/power": {
+        "format": "󰤄",
+	"on-click": "/home/shahwaiz/.config/rofi/powermenu/type-1/powermenu.sh",
+    },
+}
