@@ -1,3 +1,4 @@
+<!--
 ## Style 1 (v2)
   
 ![screenshot](v2/Screenshots/screenshot.png)  
@@ -13,6 +14,26 @@
 ## Experimental Spotify Widget Thingie  
   
 ![screenshot4](v3/screenshots/experiment.png)  
+
+-->
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+  <div style="flex-basis: 45%; text-align: center; margin-bottom: 20px;">
+    <img src="v2/Screenshots/screenshot.png" alt="Blue Serenity" style="width: 100%; max-width: 200px;">
+    <p><strong>v2</strong></p>
+  </div>
+  <div style="flex-basis: 45%; text-align: center; margin-bottom: 20px;">
+    <img src="v3/screenshots/terminalstuff.png" alt="Purple Quirk" style="width: 100%; max-width: 200px;">
+    <p><strong>v3</strong></p>
+  </div>
+  <div style="flex-basis: 45%; text-align: center; margin-bottom: 20px;">
+    <img src="v1/screenshots/foot.png" alt="Silver Focus" style="width: 100%; max-width: 200px;">
+    <p><strong>v1</strong></p>
+  </div>
+  <div style="flex-basis: 45%; text-align: center; margin-bottom: 20px;">
+    <img src="v3/screenshots/experiment.png" alt="Silver Focus" style="width: 100%; max-width: 200px;">
+    <p><strong>experiment</strong></p>
+  </div>
+</div>  
   
 ## Setup Details 
 Operating system: [Arch Linux](https://archlinux.org/)  
