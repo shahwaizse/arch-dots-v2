@@ -16,28 +16,24 @@
 ![screenshot4](v3/screenshots/experiment.png)  
 
 -->
-<table>
-  <tr>
-    <td style="text-align: center;">
-      <img src="v2/Screenshots/screenshot.png" alt="v2""><br>
-      <strong>v2</strong>
-    </td>
-    <td style="text-align: center;">
-      <img src="v3/screenshots/terminalstuff.png" alt="v3""><br>
-      <strong>v3</strong>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-      <img src="v1/screenshots/foot.png" alt="v1"><br>
-      <strong>v1</strong>
-    </td>
-    <td style="text-align: center;">
-      <img src="v3/screenshots/experiment.png" alt="Experimental Spotify Widget In Bar"><br>
-      <strong>Experimenta</strong>
-    </td>
-  </tr>
-</table>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+  <div style="text-align: center;">
+    <img src="v2/Screenshots/screenshot.png" alt="v2" style="width: 100%;">
+    <p><strong>v2</strong></p>
+  </div>
+  <div style="text-align: center;">
+    <img src="v3/screenshots/terminalstuff.png" alt="v3" style="width: 100%;">
+    <p><strong>v3</strong></p>
+  </div>
+  <div style="text-align: center;">
+    <img src="v1/screenshots/foot.png" alt="v1" style="width: 100%;">
+    <p><strong>v1</strong></p>
+  </div>
+  <div style="text-align: center;">
+    <img src="v3/screenshots/experiment.png" alt="Experimental Spotify Widget" style="width: 100%;">
+    <p><strong>Experimental Spotify Widget</strong></p>
+  </div>
+</div>
   
 ## Setup Details 
 Operating system: [Arch Linux](https://archlinux.org/)  
