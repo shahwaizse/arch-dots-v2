@@ -16,24 +16,28 @@
 ![screenshot4](v3/screenshots/experiment.png)  
 
 -->
-<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-  <div style="flex-basis: 45%; text-align: center; margin-bottom: 20px;">
-    <img src="v2/Screenshots/screenshot.png" alt="Blue Serenity" style="width: 100%; max-width: 200px;">
-    <p><strong>v2</strong></p>
-  </div>
-  <div style="flex-basis: 45%; text-align: center; margin-bottom: 20px;">
-    <img src="v3/screenshots/terminalstuff.png" alt="Purple Quirk" style="width: 100%; max-width: 200px;">
-    <p><strong>v3</strong></p>
-  </div>
-  <div style="flex-basis: 45%; text-align: center; margin-bottom: 20px;">
-    <img src="v1/screenshots/foot.png" alt="Silver Focus" style="width: 100%; max-width: 200px;">
-    <p><strong>v1</strong></p>
-  </div>
-  <div style="flex-basis: 45%; text-align: center; margin-bottom: 20px;">
-    <img src="v3/screenshots/experiment.png" alt="Silver Focus" style="width: 100%; max-width: 200px;">
-    <p><strong>experiment</strong></p>
-  </div>
-</div>  
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <img src="path_to_image_v1.png" alt="v1" style="width: 200px;"><br>
+      <strong>v1</strong>
+    </td>
+    <td style="text-align: center;">
+      <img src="path_to_image_v2.png" alt="v2" style="width: 200px;"><br>
+      <strong>v2</strong>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <img src="path_to_image_v3.png" alt="v3" style="width: 200px;"><br>
+      <strong>v3</strong>
+    </td>
+    <td style="text-align: center;">
+      <img src="path_to_image_v4.png" alt="v4" style="width: 200px;"><br>
+      <strong>v4</strong>
+    </td>
+  </tr>
+</table>  
   
 ## Setup Details 
 Operating system: [Arch Linux](https://archlinux.org/)  
