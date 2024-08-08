@@ -16,7 +16,7 @@
     </td>
     <td style="text-align: center; width: 100%; height: 300px; position: relative;">
       <img src="v3/screenshots/experiment.png" alt="Experimental Spotify Widget Thingie" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-      <p><strong>Experimental Spotify Widget Thingie</strong></p>
+      <p><strong>Style 4 (xprmt)</strong></p>
     </td>
   </tr>
 </table>  
