@@ -19,21 +19,21 @@
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="v2/Screenshots/screenshot.png" alt="v2" style="width: 200px;"><br>
+      <img src="v2/Screenshots/screenshot.png" alt="v2""><br>
       <strong>v2</strong>
     </td>
     <td style="text-align: center;">
-      <img src="v3/screenshots/terminalstuff.png" alt="v3" style="width: 200px;"><br>
+      <img src="v3/screenshots/terminalstuff.png" alt="v3""><br>
       <strong>v3</strong>
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src="v1/screenshots/foot.png" alt="v1" style="width: 200px;"><br>
+      <img src="v1/screenshots/foot.png" alt="v1"><br>
       <strong>v1</strong>
     </td>
     <td style="text-align: center;">
-      <img src="v3/screenshots/experiment.png" alt="Experimental Spotify Widget In Bar" style="width: 200px;"><br>
+      <img src="v3/screenshots/experiment.png" alt="Experimental Spotify Widget In Bar"><br>
       <strong>Experimenta</strong>
     </td>
   </tr>
