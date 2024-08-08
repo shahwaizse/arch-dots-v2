@@ -9,6 +9,10 @@
 ## Style 3 (v1)  
 
 ![screenshot3](v1/screenshots/foot.png)  
+
+## Experimental Spotify Widget Thingie  
+  
+![screenshot4](v3/screenshots/experiment.png)  
   
 ## Setup Details 
 Operating system: [Arch Linux](https://archlinux.org/)  
