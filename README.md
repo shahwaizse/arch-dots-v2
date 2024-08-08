@@ -6,7 +6,7 @@
   
 ![screenshot2](v3/screenshots/terminalstuff.png)  
   
-##Style 3 (v1)  
+## Style 3 (v1)  
 
 ![screenshot3](v1/screenshots/foot.png)  
   
