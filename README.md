@@ -1,18 +1,8 @@
-## Style 1 (v2)
-  
-![screenshot](v2/Screenshots/screenshot.png)    
-  
-## Style 2 (v1)  
-
-![screenshot3](v1/screenshots/foot.png)  
-  
-## Style 3 (v3)  
-  
-![screenshot2](v3/screenshots/terminalstuff.png)
-  
-## Experimental Spotify Widget Thingie  
-  
-![screenshot4](v3/screenshots/experiment.png)  
+| ![Style 1 (v2)](v2/Screenshots/screenshot.png) | ![Style 2 (v1)](v1/screenshots/foot.png) |
+|:----------------------------------------------:|:---------------------------------------:|
+| **Style 1 (v2)**                              | **Style 2 (v1)**                         |
+| ![Style 3 (v3)](v3/screenshots/terminalstuff.png) | ![Experimental Spotify Widget Thingie](v3/screenshots/experiment.png) |
+| **Style 3 (v3)**                              | **Experimental Spotify Widget Thingie**  |   
   
 ## Setup Details 
 Operating system: [Arch Linux](https://archlinux.org/)  
