@@ -1,0 +1,113 @@
+{
+    "margin": "10 10 0 10",
+    "position": "top",
+    "layer": "top",
+    "modules-left": ["custom/launcher", "custom/terminal", "custom/firefox", "custom/files", "clock", "custom/media"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["network", "pulseaudio", "backlight", "battery", "tray", "custom/power"],
+    "hyprland/window": {
+        "max-length": 50
+    },
+    "hyprland/window": {
+        "format": "{class}",
+    },
+    "hyprland/workspaces": {
+	"persistent-workspaces": {
+	    "*": 5,
+	},
+        "format": "{icon}",
+        "on-click": "activate",
+        "format-icons": {
+            "active": "󰊠",
+            "default": "󱙝"
+        },
+        "sort-by-number": true
+    },
+    "battery": {
+	"format": "{icon}",
+        "format-alt": "{icon}  {capacity}",
+        "format-icons": ["󰂎", "󰁾", "󰁹"],
+	"format-charging": "󰂄",
+	"tooltip-format": "{capacity}",
+    },
+    "clock": {
+	"format-alt": "",
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%a, %d. %b  %H:%M}"
+    },
+    "backlight": {
+        "device": "intel_backlight",
+	"format": "{icon}",
+        "format-alt": "{icon}  {percent}",
+        "format-icons": ["󰃞", "󰃟", "󰃠"],
+	"tooltip-format": "{percent}",
+    },
+    "pulseaudio": {
+	"format": "{icon}",
+        "format-alt": "{icon}  {volume}",
+        "format-bluetooth": "{volume}  {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "󰋋",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""],
+        },
+        "scroll-step": 1,
+        "on-click": "pavucontrol",
+        "ignored-sinks": ["Easy Effects Sink"]
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format": "󰖩",
+	"format-alt": "󰖩  {essid}",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "format-linked": "{ifname} (No IP)",
+        "format-disconnected": "󰖪",
+        // "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "on-click": "nm-applet",
+    },
+    "tray": {
+        "icon-size": 17,
+        "spacing": 10
+    },
+    "custom/launcher": {
+	"tooltip": false,
+        "format": "",
+        "on-click": "sleep 0.2 && /home/shahwaiz/.config/rofi/launchers/type-1/launcher.sh",
+    },
+    "custom/power": {
+	"tooltip": false,
+        "format": "󰐥",
+	"on-click": "sleep 0.2 && /home/shahwaiz/.config/rofi/powermenu/type-1/powermenu.sh",
+    },
+    "custom/media": {
+	"format": "{icon}",
+        "format-alt": "{icon} {}",
+        "return-type": "json",
+        "max-length": 40,
+        "format-icons": {
+            "spotify": "",
+            "default": "🎜"
+        },
+        "escape": true,
+        //"exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+        "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    },
+    "custom/firefox": {
+        "format": "󰈹",
+	"on-click": "firefox",
+    },
+    "custom/terminal": {
+    	"format": "",
+	"on-click": "foot",
+    },
+    "custom/files": {
+	"format": "󰉋",
+	"on-click": "thunar",
+    },
+}

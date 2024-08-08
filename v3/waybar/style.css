@@ -1,0 +1,45 @@
+* {
+    font-family: "Fira Code", "Font Awesome 5 Free";
+    font-size: 17px;
+}
+
+window#waybar {
+    background: rgba(0,0,0,0);   
+    border-radius: 0;
+}
+
+.modules-left, .modules-center, .modules-right {
+  background: rgba(25,28,33,255);
+  padding: 0 10 0 10;
+  border-radius: 20px;
+  border: 1.5px solid rgb(231,166,185);
+}
+
+#workspaces button {
+  color: rgb(250, 249, 246);
+  min-width: 13px;
+}
+
+#custom-files, #custom-terminal, #custom-firefox, #network, #window, #custom-launcher, #workspaces, #clock, #custom-media, #backlight, #pulseaudio, #battery, #tray, #custom-power {
+  color: rgb(250, 249, 246);
+  padding: 0 7 0 7;
+}
+
+#custom-files {
+  min-width: 5px;
+}
+
+#custom-media {
+  background: rgba(0,200,0,0);
+  color: rgb(250, 249, 246);
+  border-radius: 10px;
+}
+
+tooltip {
+  background: rgba(0, 0, 0, 1);
+  border: 1px solid rgb(50,50,50);
+}
+
+tooltip label {
+  color: white;
+}
