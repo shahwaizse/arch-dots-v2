@@ -1,25 +1,25 @@
 <table>
   <tr>
-    <td style="text-align: center;">
-      <img src="v2/Screenshots/screenshot.png" alt="Style 1 (v2)" style="width: 100%; height: auto;">
+    <td style="text-align: center; width: 100%; height: 300px; position: relative;">
+      <img src="v2/Screenshots/screenshot.png" alt="Style 1 (v2)" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
       <p><strong>Style 1 (v2)</strong></p>
     </td>
-    <td style="text-align: center;">
-      <img src="v1/screenshots/foot.png" alt="Style 2 (v1)" style="width: 100%; height: auto;">
+    <td style="text-align: center; width: 100%; height: 300px; position: relative;">
+      <img src="v1/screenshots/foot.png" alt="Style 2 (v1)" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
       <p><strong>Style 2 (v1)</strong></p>
     </td>
   </tr>
   <tr>
-    <td style="text-align: center;">
-      <img src="v3/screenshots/terminalstuff.png" alt="Style 3 (v3)" style="width: 100%; height: auto;">
+    <td style="text-align: center; width: 100%; height: 300px; position: relative;">
+      <img src="v3/screenshots/terminalstuff.png" alt="Style 3 (v3)" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
       <p><strong>Style 3 (v3)</strong></p>
     </td>
-    <td style="text-align: center;">
-      <img src="v3/screenshots/experiment.png" alt="Experimental Spotify Widget Thingie" style="width: 100%; height: auto;">
+    <td style="text-align: center; width: 100%; height: 300px; position: relative;">
+      <img src="v3/screenshots/experiment.png" alt="Experimental Spotify Widget Thingie" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
       <p><strong>Experimental Spotify Widget Thingie</strong></p>
     </td>
   </tr>
-</table>    
+</table>  
   
 ## Setup Details 
 Operating system: [Arch Linux](https://archlinux.org/)  
