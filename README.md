@@ -1,15 +1,15 @@
 ## Style 1 (v2)
   
-![screenshot](v2/Screenshots/screenshot.png)  
+![screenshot](v2/Screenshots/screenshot.png)    
   
-## Style 2 (v3)  
-  
-![screenshot2](v3/screenshots/terminalstuff.png)  
-  
-## Style 3 (v1)  
+## Style 2 (v1)  
 
 ![screenshot3](v1/screenshots/foot.png)  
-
+  
+## Style 3 (v3)  
+  
+![screenshot2](v3/screenshots/terminalstuff.png)
+  
 ## Experimental Spotify Widget Thingie  
   
 ![screenshot4](v3/screenshots/experiment.png)  
