@@ -19,25 +19,25 @@
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="path_to_image_v1.png" alt="v1" style="width: 200px;"><br>
-      <strong>v1</strong>
+      <img src="v2/Screenshots/screenshot.png" alt="v2" style="width: 200px;"><br>
+      <strong>v2</strong>
     </td>
     <td style="text-align: center;">
-      <img src="path_to_image_v2.png" alt="v2" style="width: 200px;"><br>
-      <strong>v2</strong>
+      <img src="v3/screenshots/terminalstuff.png" alt="v3" style="width: 200px;"><br>
+      <strong>v3</strong>
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src="path_to_image_v3.png" alt="v3" style="width: 200px;"><br>
-      <strong>v3</strong>
+      <img src="v1/screenshots/foot.png" alt="v1" style="width: 200px;"><br>
+      <strong>v1</strong>
     </td>
     <td style="text-align: center;">
-      <img src="path_to_image_v4.png" alt="v4" style="width: 200px;"><br>
-      <strong>v4</strong>
+      <img src="v3/screenshots/experiment.png" alt="Experimental Spotify Widget In Bar" style="width: 200px;"><br>
+      <strong>Experimenta</strong>
     </td>
   </tr>
-</table>  
+</table>
   
 ## Setup Details 
 Operating system: [Arch Linux](https://archlinux.org/)  
